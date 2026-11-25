@@ -3,13 +3,14 @@
   "name": "accounting-multi-currency-api",
   "display_name": "Accounting Multi-Currency API",
   "description": "Authenticated API adapter for currency profiles, rates, and revaluation.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "category": "presentation",
   "provider": "Liberu\\Accounting\\MultiCurrencyApi\\MultiCurrencyApiServiceProvider",
   "requires": {
     "php": "^8.5",
     "laravel": "^13.0",
     "packages": {
+      "liberusoftware/module-accounting-erp": "^1.0",
       "liberusoftware/module-accounting-multi-currency": "^1.0"
     }
   },
